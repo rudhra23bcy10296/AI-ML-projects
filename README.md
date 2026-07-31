@@ -8,21 +8,23 @@
 
 ## Overview
 
-A comprehensive portfolio of **7 interactive AI/ML web applications** spanning Supervised Learning, Deep Learning, Computer Vision, Medical Imaging, Recommender Systems, Full-Stack Deployment, and Generative AI. Each project is self-contained with its own dataset, model pipeline, web interface, and documentation.
+A comprehensive portfolio of **9 interactive AI/ML projects** spanning Supervised Learning, Deep Learning, Computer Vision, Medical Imaging, Reinforcement Learning, Recommender Systems, Full-Stack Deployment, and Generative AI. Each project is self-contained with its own dataset, model pipeline, visual simulation, and documentation.
 
 ---
 
 ## Projects
 
-| # | Project | Domain | Key Tech | Port |
+| # | Project | Domain | Key Tech | Type / Output |
 |---|---|---|---|---|
-| 01 | [Adult Census Income Classification](./01_Adult_Census_Income_Classification/) | Supervised Learning | Scikit-learn, XGBoost, LightGBM | 5000 |
-| 02 | [CIFAR-10 Image Classification](./02_CIFAR10_Image_Classification/) | Deep Learning / CV | PyTorch CNN | 5000 |
-| 03 | [LFW Face Recognition CNN](./03_LFW_Face_Recognition_CNN/) | Computer Vision | PyTorch, OpenCV, Webcam | 5000 |
-| 04 | [Cancer Detection from MRI](./04_Cancer_Detection_MRI/) | Medical Imaging | PyTorch, Grad-CAM | 5000 |
-| 07 | [TMDB Movie Recommendation System](./07_Movie_Recommendation_System/) | Recommender Systems | TF-IDF, Cosine Similarity | 5000 |
-| 08 | [End-to-End House Price Prediction](./08_End_to_End_Render_Deployment/) | Full-Stack Deployment | Flask + React + Docker + Render ([Live Demo](https://house-price-prediction-webapp-b4jv.onrender.com/)) | 5000 |
-| 09 | [RAG Chatbot Capstone](./09_RAG_Chatbot_Capstone/) | Generative AI / NLP | Groq LLM, ChromaDB, FastAPI | 8000 |
+| 01 | [Adult Census Income Classification](./01_Adult_Census_Income_Classification/) | Supervised Learning | Scikit-learn, XGBoost, LightGBM | Web App (Port 5000) |
+| 02 | [CIFAR-10 Image Classification](./02_CIFAR10_Image_Classification/) | Deep Learning / CV | PyTorch CNN | Web App (Port 5000) |
+| 03 | [LFW Face Recognition CNN](./03_LFW_Face_Recognition_CNN/) | Computer Vision | PyTorch, OpenCV, Webcam | Real-time Web App |
+| 04 | [Cancer Detection from MRI](./04_Cancer_Detection_MRI/) | Medical Imaging | PyTorch, Grad-CAM | Web App (Port 5000) |
+| 05 | [CartPole Reinforcement Learning](./05_CartPole_RL_Agent/) | Reinforcement Learning | PyTorch, Gymnasium, DQN | Pygame Visual Simulation |
+| 06 | [Lunar Lander Reinforcement Learning](./06_Lunar_Lander_RL_Agent/) | Reinforcement Learning | PyTorch, Gymnasium Box2D, Dueling DQN | Custom Pygame Visual Simulation |
+| 07 | [TMDB Movie Recommendation System](./07_Movie_Recommendation_System/) | Recommender Systems | TF-IDF, Cosine Similarity | Web App (Port 5000) |
+| 08 | [End-to-End House Price Prediction](./08_End_to_End_Render_Deployment/) | Full-Stack Deployment | Flask + React + Docker + Render | Web App ([Live Demo](https://house-price-prediction-webapp-b4jv.onrender.com/)) |
+| 09 | [RAG Chatbot Capstone](./09_RAG_Chatbot_Capstone/) | Generative AI / NLP | Groq LLM, ChromaDB, FastAPI | Web App (Port 8000) |
 
 ---
 
@@ -39,6 +41,12 @@ Real-time face recognition with live webcam streaming. Uses CNN-generated 128-di
 
 ### 04 — Cancer Detection from MRI
 Classifies brain MRI scans as Normal or Tumor using a PyTorch CNN. Includes Grad-CAM visualizations for interpretable, explainable AI — highlighting regions that drove the diagnosis.
+
+### 05 — CartPole Reinforcement Learning Agent
+Solves the `CartPole-v1` control environment using a PyTorch Deep Q-Network (`DQN`) with an Experience Replay Buffer and Epsilon-Greedy policy. Features a live native Pygame window runner (`visualize.py`).
+
+### 06 — Lunar Lander Reinforcement Learning Agent
+Solves the `LunarLander` Box2D control environment using a Dueling Deep Q-Network (`DuelingDQN`) with Double Q-Learning and Soft Target Updates ($\tau = 0.001$). Includes a custom styled Pygame simulation window featuring a **flat moon surface**, **2 blue landing pad markers**, **white spaceship**, and **red engine thruster sparks**.
 
 ### 07 — TMDB Movie Recommendation System
 Content-based recommendation engine built on the TMDB 5000 Movies dataset. Processes genres, keywords, cast, crew, and overviews into TF-IDF vectors and ranks movies by cosine similarity. Features a poster-rich search and recommendation interface.
@@ -71,35 +79,11 @@ cd <project_folder>
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Launch the application
-python app.py        # Projects 01–04, 07, 08
-# or
-python main.py       # Project 09 (FastAPI)
-```
+# Launch Web Application (Projects 01–04, 07, 08)
+python app.py
 
-### Project-Specific Setup
-
-| Project | Extra Steps |
-|---|---|
-| **08** | `cd frontend && npm install && npm run build && cd ..` before running `python app.py` |
-| **09** | Copy `.env.example` → `.env` and add your `GROQ_API_KEY`. Run `python ingest.py` to populate the vector store. |
-
----
-
-## Tech Stack Overview
-
-```
-Supervised ML       → Scikit-learn, XGBoost, LightGBM
-Deep Learning       → PyTorch, TorchVision
-Computer Vision     → OpenCV, CNN Embeddings
-Explainability      → Grad-CAM
-NLP / Text          → TF-IDF, Cosine Similarity
-Vector Search       → ChromaDB
-LLM Integration     → Groq Cloud (LLaMA 3, Mixtral)
-Web Backends        → Flask, FastAPI
-Web Frontends       → Jinja2 Templates, React + Vite, Vanilla JS
-Containerization    → Docker
-Cloud Deployment    → Render
+# Launch Visual RL Window Simulation (Projects 05, 06)
+python visualize.py
 ```
 
 ---
@@ -113,6 +97,8 @@ ALL Project/
 ├── 02_CIFAR10_Image_Classification/
 ├── 03_LFW_Face_Recognition_CNN/
 ├── 04_Cancer_Detection_MRI/
+├── 05_CartPole_RL_Agent/
+├── 06_Lunar_Lander_RL_Agent/
 ├── 07_Movie_Recommendation_System/
 ├── 08_End_to_End_Render_Deployment/
 └── 09_RAG_Chatbot_Capstone/
