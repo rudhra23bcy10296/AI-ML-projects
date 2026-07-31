@@ -8,7 +8,6 @@ from custom_lunar import CustomStyledLunarLander
 def run_lunar_simulation(episodes: int = 5):
     print("=" * 60)
     print(" 🎬 Launching Custom Styled LunarLander Pygame Simulation Window")
-    print(" (Flat Moon Surface | 2 Blue Lines | White Ship | Red Engine Sparks)")
     print("=" * 60)
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
