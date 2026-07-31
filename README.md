@@ -111,3 +111,4 @@ Each project folder contains its own `README.md` with detailed documentation, se
 ## License
 
 This repository is for educational and portfolio demonstration purposes.
+

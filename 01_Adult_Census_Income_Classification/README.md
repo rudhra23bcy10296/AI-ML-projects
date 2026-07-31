@@ -75,3 +75,4 @@ python app.py
 | Random Forest | ~85% | ~0.68 |
 | XGBoost | ~86% | ~0.70 |
 | LightGBM | ~86% | ~0.70 |
+

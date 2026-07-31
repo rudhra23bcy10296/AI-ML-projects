@@ -111,3 +111,4 @@ python app.py
 - **Persistent vector store** — ChromaDB stores embeddings locally, no re-ingestion needed
 - **Custom documents** — Drop any `.txt` file into `docs/` and re-run ingestion
 - **Modern chat UI** — Clean, responsive single-page interface
+

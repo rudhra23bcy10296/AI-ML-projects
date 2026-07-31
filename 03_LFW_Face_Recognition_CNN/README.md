@@ -73,3 +73,4 @@ python app.py
 
 - **Source:** Labeled Faces in the Wild (LFW) — used for training/evaluation
 - **Custom Faces:** Store personal images in `known_faces/<name>/` subfolders
+

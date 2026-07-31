@@ -70,3 +70,4 @@ python app.py
 ## Clinical Disclaimer
 
 > This project is for educational and demonstration purposes only. It is **not** intended for actual medical diagnosis. Always consult qualified medical professionals for clinical decisions.
+

@@ -78,3 +78,4 @@ python app.py
 - **Size:** 60,000 images (50,000 train / 10,000 test)
 - **Resolution:** 32×32 RGB
 - **Classes:** 10 mutually exclusive categories
+
