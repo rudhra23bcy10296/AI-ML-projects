@@ -10,6 +10,8 @@
 
 A full-stack machine learning application demonstrating end-to-end deployment. A Linear Regression model trained on King County housing data predicts home prices based on bedrooms, bathrooms, square footage, and year built. The backend is a Flask REST API, the frontend is a React + Vite single-page application, and the entire stack is containerized with Docker and configured for one-click deployment on Render.
 
+**Live Deployment URL:** [https://house-price-prediction-webapp-b4jv.onrender.com/](https://house-price-prediction-webapp-b4jv.onrender.com/)
+
 ## Tech Stack
 
 | Layer | Technology |

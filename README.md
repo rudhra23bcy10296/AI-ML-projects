@@ -21,7 +21,7 @@ A comprehensive portfolio of **7 interactive AI/ML web applications** spanning S
 | 03 | [LFW Face Recognition CNN](./03_LFW_Face_Recognition_CNN/) | Computer Vision | PyTorch, OpenCV, Webcam | 5000 |
 | 04 | [Cancer Detection from MRI](./04_Cancer_Detection_MRI/) | Medical Imaging | PyTorch, Grad-CAM | 5000 |
 | 07 | [TMDB Movie Recommendation System](./07_Movie_Recommendation_System/) | Recommender Systems | TF-IDF, Cosine Similarity | 5000 |
-| 08 | [End-to-End House Price Prediction](./08_End_to_End_Render_Deployment/) | Full-Stack Deployment | Flask + React + Docker + Render | 5000 |
+| 08 | [End-to-End House Price Prediction](./08_End_to_End_Render_Deployment/) | Full-Stack Deployment | Flask + React + Docker + Render ([Live Demo](https://house-price-prediction-webapp-b4jv.onrender.com/)) | 5000 |
 | 09 | [RAG Chatbot Capstone](./09_RAG_Chatbot_Capstone/) | Generative AI / NLP | Groq LLM, ChromaDB, FastAPI | 8000 |
 
 ---
@@ -44,7 +44,8 @@ Classifies brain MRI scans as Normal or Tumor using a PyTorch CNN. Includes Grad
 Content-based recommendation engine built on the TMDB 5000 Movies dataset. Processes genres, keywords, cast, crew, and overviews into TF-IDF vectors and ranks movies by cosine similarity. Features a poster-rich search and recommendation interface.
 
 ### 08 — End-to-End House Price Prediction (Render Deployment)
-Full-stack ML application with a Flask API backend, React + Vite frontend, and Docker containerization. Predicts King County house prices using Linear Regression. Configured for one-click deployment on Render.
+Full-stack ML application with a Flask API backend, React + Vite frontend, and Docker containerization. Predicts King County house prices using Linear Regression. Configured for one-click deployment on Render.  
+**Live Demo:** [https://house-price-prediction-webapp-b4jv.onrender.com/](https://house-price-prediction-webapp-b4jv.onrender.com/)
 
 ### 09 — RAG Chatbot Capstone
 Retrieval-Augmented Generation chatbot that answers questions from custom documents. Ingests files into ChromaDB, retrieves relevant context via semantic search, and generates grounded answers using Groq-hosted LLMs (LLaMA 3 / Mixtral).
