@@ -1,0 +1,21 @@
+=== AI & Machine Learning Capstone Reference Handbook ===
+Student Author: Rudhra Sitholey (Reg No: 23BCY10296)
+
+Section 1: Supervised Learning Fundamentals
+Supervised learning algorithm models learn mapping functions from labeled input data X to target outcomes Y.
+Key supervised tasks include binary classification, multi-class image classification, and continuous target regression.
+Common algorithms include Logistic Regression, Decision Trees, Random Forests, Support Vector Machines (SVM), and Gradient Boosted Trees (XGBoost/LightGBM).
+
+Section 2: Deep Learning & Computer Vision
+Convolutional Neural Networks (CNNs) process spatial grid data such as RGB images using learnable kernel filters.
+Key building blocks include Convolutional layers, Batch Normalization, Max Pooling, and Residual Connections.
+Common applications include CIFAR-10 image classification, facial recognition under uncontrolled wild conditions (LFW dataset), and medical image analysis such as tumor detection from MRI brain scans.
+
+Section 3: Reinforcement Learning (RL)
+Reinforcement Learning agents learn optimal behavioral policies by taking actions in an environment to maximize cumulative reward signals.
+Value-based approaches like Deep Q-Networks (DQN) and Dueling Double DQN learn Q-value functions for discrete action spaces like Cart-Pole balancing.
+Policy-gradient approaches like Proximal Policy Optimization (PPO) clip policy updates for stable control in complex dynamics like Lunar Lander spacecraft landing.
+
+Section 4: Retrieval-Augmented Generation (RAG)
+RAG systems combine information retrieval vector databases with generative language models to eliminate hallucinations and answer domain questions with verified source citations.
+Documents are split into semantic chunks, converted into high-dimensional vector embeddings, indexed in a vector store, retrieved via cosine metric top-k similarity, and passed as context to synthesize answers.

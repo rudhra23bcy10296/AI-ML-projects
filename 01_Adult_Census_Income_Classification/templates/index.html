@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adult Census Income Prediction - Rudhra Sitholey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+        body { background: #0f172a; color: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+        .card { background: #1e293b; border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 32px; width: 100%; max-width: 600px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+        h1 { color: #38bdf8; font-size: 24px; text-align: center; margin-bottom: 6px; }
+        .badge { background: #0284c7; color: white; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; display: inline-block; margin-bottom: 16px; }
+        .meta { font-size: 13px; color: #94a3b8; text-align: center; border-bottom: 1px solid #334155; padding-bottom: 16px; margin-bottom: 24px; line-height: 1.5; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .form-group { margin-bottom: 12px; }
+        label { display: block; font-size: 12px; color: #cbd5e1; margin-bottom: 4px; font-weight: 600; }
+        input, select { width: 100%; padding: 10px; background: #0f172a; border: 1px solid #334155; border-radius: 8px; color: white; font-size: 13px; outline: none; }
+        button { grid-column: span 2; padding: 12px; background: linear-gradient(135deg, #0284c7, #2563eb); border: none; border-radius: 8px; color: white; font-weight: 700; font-size: 15px; cursor: pointer; margin-top: 12px; transition: transform 0.2s; }
+        button:hover { transform: translateY(-2px); }
+        .res-box { margin-top: 24px; padding: 16px; background: #090d16; border-radius: 8px; border: 1px solid #334155; display: none; }
+        .res-title { color: #38bdf8; font-weight: 700; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div style="text-align: center;"><span class="badge">Supervised Learning Web Dashboard</span></div>
+        <h1>Adult Census Income Classification</h1>
+        <div class="meta">
+            <strong>Student:</strong> {{ student_name }} | <strong>Reg No:</strong> {{ reg_no }} | <strong>App No:</strong> {{ app_no }}<br>
+            <strong>Email:</strong> {{ email }}
+        </div>
+        
+        <form id="censusForm" class="grid">
+            <div class="form-group"><label>Age:</label><input type="number" id="age" value="38" required></div>
+            <div class="form-group"><label>Years of Education:</label><input type="number" id="education_num" value="13" required></div>
+            <div class="form-group"><label>Hours / Week:</label><input type="number" id="hours_per_week" value="45" required></div>
+            <div class="form-group"><label>Capital Gain ($):</label><input type="number" id="capital_gain" value="2174" required></div>
+            <div class="form-group"><label>Workclass:</label>
+                <select id="workclass">
+                    <option value="Private" selected>Private</option>
+                    <option value="Self-emp-not-inc">Self-Emp</option>
+                    <option value="Federal-gov">Federal Gov</option>
+                    <option value="Local-gov">Local Gov</option>
+                </select>
+            </div>
+            <div class="form-group"><label>Marital Status:</label>
+                <select id="marital_status">
+                    <option value="Married-civ-spouse" selected>Married Spouse</option>
+                    <option value="Never-married">Never Married</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+            </div>
+            <button type="submit">Predict Annual Income</button>
+        </form>
+
+        <div id="resBox" class="res-box">
+            <div class="res-title">Classification Prediction:</div>
+            <p style="margin-top:8px;"><strong>Predicted Category:</strong> <span id="lblRes" style="color: #4ade80;">-</span></p>
+            <p><strong>Confidence Score:</strong> <span id="probaRes">-</span>%</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('censusForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const payload = {
+                age: parseFloat(document.getElementById('age').value),
+                education_num: parseFloat(document.getElementById('education_num').value),
+                hours_per_week: parseFloat(document.getElementById('hours_per_week').value),
+                capital_gain: parseFloat(document.getElementById('capital_gain').value),
+                workclass: document.getElementById('workclass').value,
+                marital_status: document.getElementById('marital_status').value
+            };
+            const res = await fetch('/predict', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            document.getElementById('resBox').style.display = 'block';
+            document.getElementById('lblRes').innerText = data.label;
+            document.getElementById('probaRes').innerText = data.probability;
+        });
+    </script>
+</body>
+</html>

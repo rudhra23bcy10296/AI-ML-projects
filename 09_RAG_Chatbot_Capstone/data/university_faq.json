@@ -1,0 +1,782 @@
+[
+  {
+    "id": "ADM-001",
+    "category": "Admissions & Enrollment",
+    "question": "What are the general admission requirements for undergraduate programs?",
+    "answer": "Undergraduate admission requires a completed online application, official high school transcripts (minimum recommended GPA of 3.0 on a 4.0 scale), standard letters of recommendation (typically two), a personal statement, and a non-refundable application fee. Standardized test scores (SAT/ACT) are optional for most majors."
+  },
+  {
+    "id": "ADM-002",
+    "category": "Admissions & Enrollment",
+    "question": "What is the minimum GPA required for admission?",
+    "answer": "For undergraduate applicants, a cumulative high school GPA of 3.0 or higher is highly competitive, though students with a GPA above 2.5 are considered for holistic review. Graduate programs typically require a minimum GPA of 3.0 in undergraduate coursework."
+  },
+  {
+    "id": "ADM-003",
+    "category": "Admissions & Enrollment",
+    "question": "Is the university test-optional for standardized test scores?",
+    "answer": "Yes, our university has a test-optional policy for undergraduate admissions. Standardized test scores (SAT or ACT) are not required for admission decisions. However, students who choose to submit their scores can do so to support their application, and scores may be used for course placement or merit-based scholarship evaluations."
+  },
+  {
+    "id": "ADM-004",
+    "category": "Admissions & Enrollment",
+    "question": "What are the application deadlines for the Fall and Spring semesters?",
+    "answer": "For Fall admission, the Early Action deadline is November 1, and the Regular Decision deadline is February 1. For Spring admission, the priority application deadline is November 1. Applications submitted after priority deadlines are reviewed on a space-available basis."
+  },
+  {
+    "id": "ADM-005",
+    "category": "Admissions & Enrollment",
+    "question": "What is the difference between Early Action, Early Decision, and Regular Decision?",
+    "answer": "Early Action is non-binding and allows you to apply early (by Nov 1) and receive an admission decision early. Early Decision is a binding agreement; if admitted, you must enroll and withdraw all other applications. Regular Decision is the standard non-binding application path with a deadline of February 1."
+  },
+  {
+    "id": "ADM-006",
+    "category": "Admissions & Enrollment",
+    "question": "How much is the application fee, and can I get a fee waiver?",
+    "answer": "The undergraduate application fee is $70, and the graduate application fee is $85. Application fee waivers are available for eligible students who demonstrate financial need, which can be requested through the Common Application or by submitting a College Board/ACT fee waiver form signed by a counselor."
+  },
+  {
+    "id": "ADM-007",
+    "category": "Admissions & Enrollment",
+    "question": "How do I apply as an international student?",
+    "answer": "International students must complete the online application, submit certified English translations of academic transcripts, provide proof of English language proficiency (TOEFL/IELTS/Duolingo), submit a copy of their passport, and complete the Financial Declaration form for I-20 document issuance."
+  },
+  {
+    "id": "ADM-008",
+    "category": "Admissions & Enrollment",
+    "question": "What are the English language proficiency requirements for international applicants?",
+    "answer": "International applicants whose native language is not English must submit proof of proficiency. The minimum accepted scores are: TOEFL iBT: 80, IELTS Academic: 6.5 (minimum of 6.0 in each sub-score), or Duolingo English Test: 110. This requirement is waived for applicants who have completed at least two years of full-time study at a school where English is the primary language of instruction."
+  },
+  {
+    "id": "ADM-009",
+    "category": "Admissions & Enrollment",
+    "question": "What is the application process and transfer credit policy for transfer students?",
+    "answer": "Transfer applicants must submit transcripts from all post-secondary institutions attended. A minimum cumulative college GPA of 2.5 is required. Generally, academic credits from regionally accredited institutions earn transfer credit if the course grade was a C- or higher and matches our curriculum."
+  },
+  {
+    "id": "ADM-010",
+    "category": "Admissions & Enrollment",
+    "question": "How can I check the status of my application?",
+    "answer": "After submitting your application, you will receive an email invitation to log into your applicant portal. There, you can view a checklist of required items, check which documents have been received, and view your admission decision when it is posted."
+  },
+  {
+    "id": "ADM-011",
+    "category": "Admissions & Enrollment",
+    "question": "Can I defer my admission to a future semester?",
+    "answer": "Yes, admitted students may request to defer their enrollment for up to one academic year. To request a deferral, you must submit your enrollment deposit, complete the Admission Deferral Request Form in your applicant portal, and provide a brief explanation of your plans during the deferral period."
+  },
+  {
+    "id": "ADM-012",
+    "category": "Admissions & Enrollment",
+    "question": "How do I confirm my enrollment and pay the enrollment deposit?",
+    "answer": "To confirm your enrollment, log into your applicant portal, complete the Reply to Offer of Admission form, and submit the non-refundable $300 enrollment deposit. The enrollment deposit deadline for Fall freshmen is May 1."
+  },
+  {
+    "id": "ADM-013",
+    "category": "Admissions & Enrollment",
+    "question": "How do I submit my final official transcripts and exam scores (AP, IB, CLEP)?",
+    "answer": "Final official transcripts must be sent directly from your high school or college registrar via electronic transcript services (Parchment, National Student Clearinghouse) or mailed in a sealed envelope to the Admissions Office. AP, IB, and CLEP exam scores must be requested directly from the College Board or International Baccalaureate Organization and sent to our school code."
+  },
+  {
+    "id": "ADM-014",
+    "category": "Admissions & Enrollment",
+    "question": "Can I re-apply if my application was previously rejected?",
+    "answer": "Yes, you can re-apply for a subsequent term. You will need to submit a new application, pay the application fee, and provide updated transcripts showing any additional coursework completed since your last application, along with an updated personal statement."
+  },
+  {
+    "id": "ADM-015",
+    "category": "Admissions & Enrollment",
+    "question": "Can I change my major after being admitted but before starting classes?",
+    "answer": "Yes. If you wish to change your major before enrollment, you can submit a Major Change Request Form through your applicant portal. The Admissions Office will review the request based on seat availability and whether you meet the specific program requirements."
+  },
+  {
+    "id": "ADM-016",
+    "category": "Admissions & Enrollment",
+    "question": "What is the readmission process for former students returning to the university?",
+    "answer": "Former students who have not attended the university for more than two consecutive semesters (excluding summer terms) must submit an Application for Readmission. If they attended other colleges during their absence, official transcripts of that work must be submitted to the Registrar."
+  },
+  {
+    "id": "ADM-017",
+    "category": "Admissions & Enrollment",
+    "question": "How do I apply as a non-degree seeking student?",
+    "answer": "Non-degree seeking applicants must complete a simplified Non-Degree Student Application. They must show proof of high school graduation or college enrollment. Non-degree students register for courses on a space-available basis and are not eligible for financial aid."
+  },
+  {
+    "id": "ADM-018",
+    "category": "Admissions & Enrollment",
+    "question": "What are the general admission requirements for graduate programs?",
+    "answer": "Graduate admission requirements vary by department but generally include an online application, a bachelor's degree from an accredited institution, official transcripts, a statement of purpose, 3 letters of recommendation, and a professional resume. Some programs require GRE or GMAT scores."
+  },
+  {
+    "id": "ADM-019",
+    "category": "Admissions & Enrollment",
+    "question": "Is orientation mandatory for new students, and when does it take place?",
+    "answer": "Yes, New Student Orientation is mandatory for all incoming freshmen and transfer students. Freshmen orientation sessions take place in June and July (overnight sessions) or August, while transfer orientation occurs in August (Fall entry) and January (Spring entry). Orientation registration details are sent via email after deposit submission."
+  },
+  {
+    "id": "ADM-020",
+    "category": "Admissions & Enrollment",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can contact the Office of Undergraduate Admissions by email at admissions@university.edu or by phone at (555) 019-2000. For graduate admissions, contact gradadmissions@university.edu or call (555) 019-2001. The office is located in the Welcome Center and is open Monday through Friday, 8:30 AM to 5:00 PM."
+  },
+  {
+    "id": "ACA-001",
+    "category": "Academics & Curriculum",
+    "question": "How do I declare or change my major or minor?",
+    "answer": "To declare or change a major or minor, you must log into the Student Portal, complete the 'Declaration of Major/Minor' electronic form, and obtain approval from the department chair of your prospective major. Freshmen are typically required to wait until their second semester before declaring."
+  },
+  {
+    "id": "ACA-002",
+    "category": "Academics & Curriculum",
+    "question": "How many credits are required to graduate with a Bachelor's degree?",
+    "answer": "A minimum of 120 credit hours is required to graduate with a Bachelor's degree. This total includes general education requirements, major requirements, electives, and any minor requirements. Some specialized engineering or science programs may require up to 128 credits."
+  },
+  {
+    "id": "ACA-003",
+    "category": "Academics & Curriculum",
+    "question": "What is the difference between full-time and part-time student status?",
+    "answer": "Undergraduate students enrolled in 12 or more credit hours per semester are classified as full-time. Students enrolled in 11 or fewer credit hours are classified as part-time. Full-time status is often required to maintain financial aid, university housing, and student health insurance."
+  },
+  {
+    "id": "ACA-004",
+    "category": "Academics & Curriculum",
+    "question": "What is the university's grading scale and how is GPA calculated?",
+    "answer": "The university uses a standard 4.0 grading system: A (4.0), A- (3.7), B+ (3.3), B (3.0), B- (2.7), C+ (2.3), C (2.0), C- (1.7), D+ (1.3), D (1.0), and F (0.0). GPA is calculated by multiplying the grade point value of each course by its credit value, summing the results, and dividing by the total credits attempted."
+  },
+  {
+    "id": "ACA-005",
+    "category": "Academics & Curriculum",
+    "question": "What are academic probation and suspension policies?",
+    "answer": "Students must maintain a cumulative GPA of at least 2.0. If the GPA drops below 2.0, the student is placed on Academic Probation. If the GPA remains below 2.0 for two consecutive semesters, they face Academic Suspension, requiring them to sit out for at least one semester before applying for reinstatement."
+  },
+  {
+    "id": "ACA-006",
+    "category": "Academics & Curriculum",
+    "question": "How and when can I add, drop, or withdraw from a class?",
+    "answer": "You can add or drop classes online through the Student Portal during the registration period and the first week of classes (Add/Drop week) without academic or financial penalty. After this week and up to the tenth week of the semester, you may 'withdraw' from a class. A withdrawal results in a 'W' grade on your transcript, which does not affect your GPA, but tuition is not refunded."
+  },
+  {
+    "id": "ACA-007",
+    "category": "Academics & Curriculum",
+    "question": "What are the rules and limits for taking a class on a Pass/Fail basis?",
+    "answer": "Juniors and seniors in good academic standing may take up to two elective courses (maximum of 8 credits) on a Pass/Fail basis. Courses required for a student's major, minor, or general education core cannot be taken Pass/Fail. A grade of 'C-' or better is required to receive a 'Pass' grade."
+  },
+  {
+    "id": "ACA-008",
+    "category": "Academics & Curriculum",
+    "question": "How do I check my grades and request official transcripts?",
+    "answer": "Midterm and final grades can be viewed online under the 'Academic Records' tab in the Student Portal. To request official transcripts, you must submit a request through the National Student Clearinghouse (accessible via the Registrar's portal) and pay a processing fee of $10 per copy."
+  },
+  {
+    "id": "ACA-009",
+    "category": "Academics & Curriculum",
+    "question": "What are the requirements for completing a double major?",
+    "answer": "To complete a double major, you must satisfy all general education core requirements, plus all major requirements for both programs. Both majors must be under the same degree type (e.g., Bachelor of Arts or Bachelor of Science). You must declare both majors with the Registrar and obtain approval from both department advisors."
+  },
+  {
+    "id": "ACA-0010",
+    "category": "Academics & Curriculum",
+    "question": "When does course registration open and how do I register?",
+    "answer": "Course registration opens in April for the Fall semester and November for the Spring semester. Registration windows are assigned based on class standing (seniors first, followed by juniors, sophomores, and freshmen). You register online via the Student Portal after meeting with your academic advisor to clear your advising hold."
+  },
+  {
+    "id": "ACA-011",
+    "category": "Academics & Curriculum",
+    "question": "What is the difference between a course prerequisite and a co-requisite?",
+    "answer": "A prerequisite is a course or requirement that you must successfully complete *before* enrolling in a specific class. A co-requisite is a course that you must take *at the same time* as the specified class. For example, a chemistry lab is often a co-requisite to the general chemistry lecture."
+  },
+  {
+    "id": "ACA-012",
+    "category": "Academics & Curriculum",
+    "question": "What should I do if a required class is full?",
+    "answer": "If a required class is full, you should sign up for the electronic waitlist in the registration system if available. Alternatively, you can contact the instructor to ask for a capacity override. If they approve, they will issue an electronic override code that allows you to register for the course."
+  },
+  {
+    "id": "ACA-013",
+    "category": "Academics & Curriculum",
+    "question": "What are the requirements to make the Dean's List?",
+    "answer": "To qualify for the Dean's List in any given semester, an undergraduate student must complete a minimum of 12 letter-graded credit hours and achieve a semester GPA of 3.50 or higher, with no grades of D, F, Incomplete, or Unsatisfactory."
+  },
+  {
+    "id": "ACA-014",
+    "category": "Academics & Curriculum",
+    "question": "Does the university offer study abroad programs and how do credits transfer?",
+    "answer": "Yes, our Study Abroad office offers semester, academic year, and summer programs in over 40 countries. To transfer credits back, you must obtain pre-approval from your academic department using the Course Equivalency Form. Grades earned abroad transfer as pass/fail and do not alter your cumulative GPA."
+  },
+  {
+    "id": "ACA-015",
+    "category": "Academics & Curriculum",
+    "question": "What are office hours and how do I schedule time with my professors?",
+    "answer": "Office hours are dedicated weekly blocks during which faculty members are available in their offices to meet with students without an appointment. Hours are listed on each course syllabus. If you cannot make the scheduled hours, you can email your professor to set up an alternative appointment."
+  },
+  {
+    "id": "ACA-016",
+    "category": "Academics & Curriculum",
+    "question": "Where can I find the final exam schedule and what is the policy for exam conflicts?",
+    "answer": "The final exam schedule is published by the Registrar's Office on their website during the first month of the semester. If you have three or more exams scheduled on the same day, or two exams at the same time, you may petition to have one exam rescheduled by contacting your professors at least two weeks before final exams begin."
+  },
+  {
+    "id": "ACA-017",
+    "category": "Academics & Curriculum",
+    "question": "How can I enroll in an independent study course or participate in undergraduate research?",
+    "answer": "To enroll in an independent study, you must design a project proposal with a faculty sponsor, fill out the Independent Study Form, and submit it to the department chair for approval. For research, check the Undergraduate Research Office portal for open laboratory and research assistant positions."
+  },
+  {
+    "id": "ACA-018",
+    "category": "Academics & Curriculum",
+    "question": "What is the academic integrity policy, and what are the penalties for violations?",
+    "answer": "The Academic Integrity Policy prohibits plagiarism, cheating, falsification, and unauthorized collaboration. Penalties for violations range from a zero on the assignment to an 'F' grade in the course, suspension, or permanent expulsion, depending on the severity of the offense and any prior violations."
+  },
+  {
+    "id": "ACA-019",
+    "category": "Academics & Curriculum",
+    "question": "Can I retake a course to improve my grade?",
+    "answer": "Yes, students may retake a course in which they received a grade of C- or lower. Under the Grade Replacement Policy, only the higher grade is used in computing the cumulative GPA, although both attempts and grades will remain visible on the official transcript. This policy can only be applied to a maximum of three courses."
+  },
+  {
+    "id": "ACA-020",
+    "category": "Academics & Curriculum",
+    "question": "How do I transfer credits from a community college or another institution?",
+    "answer": "You must request the other institution's registrar to send an official transcript directly to our university's Registrar Office. Once received, the credit evaluation team will review the courses and apply matching credits to your academic record. You can check the Transfer Credit Equivalency guide online to see how courses match."
+  },
+  {
+    "id": "FIN-001",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "What is the cost of attendance for full-time students?",
+    "answer": "For the current academic year, standard full-time in-state undergraduate tuition is $12,500 per year, and out-of-state tuition is $28,000. Room and board costs average $11,500. Mandatory fees (health service, technology, activities) are approximately $1,200 annually. Total cost varies based on residence hall and meal plan selections."
+  },
+  {
+    "id": "FIN-002",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "How is in-state tuition eligibility determined?",
+    "answer": "In-state tuition is based on legal residency. To qualify, a student or their parent/guardian must have lived in the state for at least 12 consecutive months immediately preceding the first day of classes, file state taxes, register to vote, and hold a valid state driver's license."
+  },
+  {
+    "id": "FIN-003",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "When is tuition due and what payment plans are available?",
+    "answer": "Tuition for the Fall semester is due August 1, and Spring semester tuition is due January 5. The university offers a Monthly Payment Plan (MPP) which divides the semester balance into 4 or 5 interest-free monthly installments. A $50 enrollment fee is charged per semester for this plan."
+  },
+  {
+    "id": "FIN-004",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "How do I apply for financial aid and what is the school code for FAFSA?",
+    "answer": "To apply for financial aid, you must complete the Free Application for Federal Student Aid (FAFSA) online at studentaid.gov. The FAFSA priority submission deadline is March 1. The university's federal school code is 001234."
+  },
+  {
+    "id": "FIN-005",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "What types of financial aid are available?",
+    "answer": "Financial aid packages can include federal and state grants (Pell Grant, State Student Grant), institutional merit and need-based scholarships, federal student loans (subsidized and unsubsidized), and Federal Work-Study employment eligibility."
+  },
+  {
+    "id": "FIN-006",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "Are there merit-based scholarships and what are the renewal requirements?",
+    "answer": "Yes, our university automatically considers all freshman applicants for merit-based scholarships. These awards range from $2,000 to $10,000 annually. To renew a merit scholarship each year, students must maintain full-time enrollment and a cumulative GPA of 3.0 or higher."
+  },
+  {
+    "id": "FIN-007",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "How is need-based financial aid calculated?",
+    "answer": "Need-based aid is calculated by subtracting your Student Aid Index (SAI), which is determined by the federal government from your FAFSA information, from the university's total Cost of Attendance (COA). The resulting Financial Need is met using a combination of grants, loans, and work-study."
+  },
+  {
+    "id": "FIN-008",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "How does the Federal Work-Study program work?",
+    "answer": "Federal Work-Study provides part-time jobs for undergraduate and graduate students with financial need, allowing them to earn money to help pay educational expenses. Students are paid hourly (at least minimum wage) and can work up to 20 hours per week. Jobs are posted on the student employment portal."
+  },
+  {
+    "id": "FIN-009",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "What is Satisfactory Academic Progress (SAP) for financial aid?",
+    "answer": "To maintain financial aid eligibility, students must meet Satisfactory Academic Progress (SAP) guidelines. This requires maintaining a minimum cumulative GPA of 2.0, successfully completing at least 67% of all credit hours attempted, and completing the degree within 150% of the normal program length."
+  },
+  {
+    "id": "FIN-010",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "How do I view and accept my financial aid package?",
+    "answer": "Once your financial aid has been packaged, you will receive a notification email. Log into the Student Portal, navigate to the 'Financial Aid' tab, select the correct academic year, and you will be able to review, accept, reduce, or decline each type of aid offered."
+  },
+  {
+    "id": "FIN-011",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "Can I appeal my financial aid award if my family's financial situation has changed?",
+    "answer": "Yes. If your family has experienced a loss of income, high medical expenses, or other special circumstances not reflected on the FAFSA, you can submit a Special Circumstances Appeal form to the Financial Aid Office along with supporting documentation (tax transcripts, termination letters, etc.)."
+  },
+  {
+    "id": "FIN-012",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "What is the difference between federal student loans and private student loans?",
+    "answer": "Federal student loans are funded by the federal government and offer fixed interest rates, income-driven repayment plans, and loan forgiveness options. Private loans are offered by banks or credit unions, usually require a co-signer, have interest rates based on creditworthiness, and offer fewer repayment safety nets."
+  },
+  {
+    "id": "FIN-013",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "Are there part-time job opportunities on campus for students without Work-Study?",
+    "answer": "Yes. Many campus departments hire students who do not have Federal Work-Study funding. These 'non-work-study' student assistant jobs are paid out of department budgets. You can search and apply for both types of jobs on the university's student career portal."
+  },
+  {
+    "id": "FIN-014",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "How do I set up direct deposit for my financial aid refund?",
+    "answer": "To receive refunds faster (e.g., when financial aid exceeds billable tuition/fees), log into the Student Portal, click on the Bursar's billing link, and select 'Direct Deposit Refund Account Setup.' Enter your bank's routing and checking account number. Refunds are processed within 3-5 business days of disbursement."
+  },
+  {
+    "id": "FIN-015",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "What is the 1098-T form and how can I get it?",
+    "answer": "The 1098-T Tuition Statement form is used to claim education tax credits (like the American Opportunity Tax Credit). The university makes 1098-T forms available online by January 31. You can access it through the 'Bursar Office' section of your Student Portal."
+  },
+  {
+    "id": "FIN-016",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "What happens if I make a late payment or have a hold on my account?",
+    "answer": "Accounts not paid by the deadline are subject to a $100 late fee and a financial hold. An account hold prevents you from registering for classes, making changes to your current schedule, and obtaining diploma documents until the outstanding balance is cleared."
+  },
+  {
+    "id": "FIN-017",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "What is the tuition refund policy if I withdraw from classes?",
+    "answer": "If you officially withdraw from all classes, tuition is refunded on a sliding scale: 100% refund during week 1 (Add/Drop week), 75% in week 2, 50% in week 3, and 25% in week 4. No refunds are issued after the fourth week of the semester. Fees are non-refundable after the first week."
+  },
+  {
+    "id": "FIN-018",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "Does the university offer emergency student loans?",
+    "answer": "Yes, short-term emergency loans of up to $500 are available to students facing unexpected temporary financial crises. These loans are interest-free but must be repaid within 60 days. You can apply by contacting the Dean of Students Office."
+  },
+  {
+    "id": "FIN-019",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "Does the university provide financial literacy workshops or advising?",
+    "answer": "Yes, the Student Financial Wellness Center offers free individual financial coaching, budget planning workshops, loan repayment strategy sessions, and credit management education. Appointments can be scheduled online."
+  },
+  {
+    "id": "FIN-020",
+    "category": "Tuition, Fees & Financial Aid",
+    "question": "How do I contact the Financial Aid or Bursar's Office?",
+    "answer": "The Financial Aid Office can be reached at finaid@university.edu or (555) 019-3000. The Bursar's Office (for billing) can be reached at bursar@university.edu or (555) 019-3001. Both offices are open Monday to Friday, 9:00 AM to 4:30 PM, located on the first floor of the Administration Hall."
+  },
+  {
+    "id": "LIF-001",
+    "category": "Campus Life & Housing",
+    "question": "Are freshmen required to live on campus?",
+    "answer": "Yes, all first-year, full-time undergraduate students are required to live in university residence halls unless they live with a parent or legal guardian within a 30-mile radius of campus, are married, or are 21 years of age or older. Exemption requests must be submitted to the Housing Office by July 1."
+  },
+  {
+    "id": "LIF-002",
+    "category": "Campus Life & Housing",
+    "question": "What housing options are available for upperclassmen?",
+    "answer": "Upperclassmen have several housing options, including suite-style dorms, university-managed apartments, and themed living-learning communities. These options feature shared kitchens, private bedrooms, and independent living options while remaining on the campus transit network."
+  },
+  {
+    "id": "LIF-003",
+    "category": "Campus Life & Housing",
+    "question": "How are roommates matched and can I select a specific roommate?",
+    "answer": "Roommates are matched based on the lifestyle preferences profile filled out in the Housing Application (e.g., sleeping habits, cleanliness, study environments). If you want to request a specific roommate, both students must list each other's student ID numbers on their housing forms before the June 1 deadline."
+  },
+  {
+    "id": "LIF-004",
+    "category": "Campus Life & Housing",
+    "question": "Can I request a roommate change mid-semester?",
+    "answer": "Roommate changes are permitted during designated 'room swap' windows, typically occurring in the third week of each semester. Before a change is approved, roommates must complete a mediation process facilitated by their Resident Advisor (RA). Final approval is subject to housing vacancy availability."
+  },
+  {
+    "id": "LIF-005",
+    "category": "Campus Life & Housing",
+    "question": "What are the move-in and move-out schedules and rules?",
+    "answer": "Fall semester move-in takes place over a staggered four-day schedule in mid-August based on building assignments. Spring move-out occurs during the final exam week in May, and rooms must be cleared within 24 hours of your final exam. Specific arrival times and checklists are sent via email in July."
+  },
+  {
+    "id": "LIF-006",
+    "category": "Campus Life & Housing",
+    "question": "What furniture and amenities are included in standard dorm rooms?",
+    "answer": "Standard dorm rooms include an extra-long twin bed frame and mattress, a desk, a desk chair, a dresser, and a wardrobe or closet. Rooms are equipped with heating, air conditioning, wireless internet access, and cable TV connections. Common kitchen, laundry, and study facilities are located in each building."
+  },
+  {
+    "id": "LIF-007",
+    "category": "Campus Life & Housing",
+    "question": "What items are prohibited in the residence halls?",
+    "answer": "Prohibited items in residence halls include halter heaters, open-flame cooking equipment (hot plates, toaster ovens), candles, incense, firearms/weapons, halogen lamps, pets (except service animals or fish in tanks under 10 gallons), and micro-fridges or microwaves that do not meet university electrical standards."
+  },
+  {
+    "id": "LIF-008",
+    "category": "Campus Life & Housing",
+    "question": "What are the meal plan options and dining locations?",
+    "answer": "We offer various meal plans, including the Unlimited Plan, the 14-Meal Plan, and the Commuter 50-Meal Plan. Plans come with 'Dining Dollars' for use at campus retail eateries (e.g., Starbucks, campus market). There are two main dining commons, a food court in the Student Union, and multiple coffee shops."
+  },
+  {
+    "id": "LIF-009",
+    "category": "Campus Life & Housing",
+    "question": "How do I find and join student clubs and organizations?",
+    "answer": "You can explore and join student organizations through the 'CampusLabs' student portal. In addition, the university hosts the Student Organization Fair during the first week of both the Fall and Spring semesters, where you can meet club representatives and sign up for mailing lists."
+  },
+  {
+    "id": "LIF-010",
+    "category": "Campus Life & Housing",
+    "question": "How do I start a new student club or organization?",
+    "answer": "To start a new club, you must have at least 10 interested students, draft a club constitution, secure a faculty/staff advisor, and submit a New Student Organization registration form to the Student Activities Office. Once approved, you can request funding from the Student Government Association."
+  },
+  {
+    "id": "LIF-011",
+    "category": "Campus Life & Housing",
+    "question": "What kind of campus events are organized for students?",
+    "answer": "The Student Programming Board schedules regular events throughout the year, including concerts, outdoor movie nights, comedy shows, homecoming week activities, cultural festivals, and field trips to nearby major cities. Most events are free for students with their ID card."
+  },
+  {
+    "id": "LIF-012",
+    "category": "Campus Life & Housing",
+    "question": "What is Greek Life like and how do I join a fraternity or sorority?",
+    "answer": "Greek Life consists of over 25 social, professional, and service fraternities and sororities under four governing councils. Formal recruitment (Rush) takes place in the early Fall and Spring. To participate, students must have completed at least 12 credits at the university and maintain a 2.5 minimum GPA."
+  },
+  {
+    "id": "LIF-013",
+    "category": "Campus Life & Housing",
+    "question": "Are there intramural and club sports, and how do I sign up?",
+    "answer": "Yes, we offer both intramural sports (casual, played among our students) and club sports (competitive, traveling to play other schools). You can register for teams, view league schedules, and buy player passes through the IMLeagues website or app using your student credentials."
+  },
+  {
+    "id": "LIF-014",
+    "category": "Campus Life & Housing",
+    "question": "What are the hours and costs for the campus recreation center?",
+    "answer": "The Campus Recreation Center is free for all fee-paying students. It includes a gym, swimming pool, climbing wall, indoor track, and weight rooms. During the semester, it is open Monday through Thursday, 6:00 AM to 11:00 PM, Friday, 6:00 AM to 9:00 PM, and weekends, 9:00 AM to 8:00 PM."
+  },
+  {
+    "id": "LIF-015",
+    "category": "Campus Life & Housing",
+    "question": "What resources are available for finding off-campus housing?",
+    "answer": "The Off-Campus Housing Service offers an online database of apartments, houses, subleases, and roommate search tools in the local area. They also provide free lease review services, advice on landlord-tenant laws, and budgeting workshops for students transitioning off campus."
+  },
+  {
+    "id": "LIF-016",
+    "category": "Campus Life & Housing",
+    "question": "What is the role of the Student Government Association (SGA)?",
+    "answer": "The Student Government Association (SGA) represents the student body's voice to the administration, manages the allocation of student activity fees to registered student organizations, and works on campus-wide initiatives like safety improvements, academic policies, and campus sustainability."
+  },
+  {
+    "id": "LIF-017",
+    "category": "Campus Life & Housing",
+    "question": "How do laundry facilities work in the dorms?",
+    "answer": "Each residence hall is equipped with laundry rooms containing high-efficiency washers and dryers. Laundry costs are included in the housing fee; students do not need coins or smart cards. You can track machine availability online through the 'LaundryView' portal."
+  },
+  {
+    "id": "LIF-018",
+    "category": "Campus Life & Housing",
+    "question": "What local student discounts can I get with my ID card?",
+    "answer": "Your student ID card (Campus Card) provides discounts at local restaurants, bookstores, movie theaters, and museums. It also grants free access to the city public transit system (bus and light rail) and discount codes for Amtrak and regional transport options."
+  },
+  {
+    "id": "LIF-019",
+    "category": "Campus Life & Housing",
+    "question": "Are there lockers and dedicated spaces for commuter students?",
+    "answer": "Yes, the Commuter Student Lounge in the Student Union has study desks, a microwave/fridge area, charging stations, and lockers. Lockers can be rented for $15 per semester through the Student Union Information Desk."
+  },
+  {
+    "id": "LIF-020",
+    "category": "Campus Life & Housing",
+    "question": "Where are the multicultural and diversity resource centers located?",
+    "answer": "The Multicultural Center, LGBTQ+ Resource Center, and Women's Center are located on the second floor of the Student Union. These spaces provide resource libraries, comfortable study lounges, cultural programming, and advocacy services for all students."
+  },
+  {
+    "id": "SUP-001",
+    "category": "Student Services & Support",
+    "question": "How do I find and schedule an appointment with my academic advisor?",
+    "answer": "Every student is assigned an academic advisor based on their major. You can find your advisor's name and contact information under the 'Advising' tab in the Student Portal. Appointments can be scheduled directly through the portal using the scheduling assistant tool."
+  },
+  {
+    "id": "SUP-002",
+    "category": "Student Services & Support",
+    "question": "What services does the Career Center provide?",
+    "answer": "The Career Center offers individual career counseling, resume and cover letter reviews, mock interviews, career workshops, job search resources, and hosts major-specific career fairs twice a year. Students also get access to the Handshake portal for internship and job opportunities."
+  },
+  {
+    "id": "SUP-003",
+    "category": "Student Services & Support",
+    "question": "What is the Writing Center and how do I schedule tutoring?",
+    "answer": "The Writing Center provides free, one-on-one tutoring for any writing assignment at any stage of the writing process (brainstorming to final draft). Tutoring is available in-person or online. You can book a 45-minute appointment through the Writing Center portal."
+  },
+  {
+    "id": "SUP-004",
+    "category": "Student Services & Support",
+    "question": "Are there tutoring services for science and math courses?",
+    "answer": "Yes, the Academic Success Center offers free drop-in peer tutoring and structured study groups for introductory mathematics, chemistry, physics, biology, and computer science courses. No appointment is needed; a weekly tutor schedule is posted on their website."
+  },
+  {
+    "id": "SUP-005",
+    "category": "Student Services & Support",
+    "question": "What mental health resources are available through CAPS?",
+    "answer": "Counseling and Psychological Services (CAPS) offers free, confidential counseling services for students, including individual short-term therapy, group therapy, crisis intervention, psychiatric services, and workshops on stress management. Walk-in emergency assessments are available daily."
+  },
+  {
+    "id": "SUP-006",
+    "category": "Student Services & Support",
+    "question": "How do I register for disability accommodations?",
+    "answer": "To register, submit an application online via the Disability Support Services (DSS) portal and upload documentation from a certified medical professional. An intake specialist will meet with you to determine reasonable academic, testing, or housing accommodations."
+  },
+  {
+    "id": "SUP-007",
+    "category": "Student Services & Support",
+    "question": "What support is available for international student visas and employment (OPT/CPT)?",
+    "answer": "The International Student Services (ISS) office provides visa advising, travel signature approvals, and regulatory support. They host mandatory seminars for Curricular Practical Training (CPT) and Optional Practical Training (OPT) authorizations for students wishing to work in the US."
+  },
+  {
+    "id": "SUP-008",
+    "category": "Student Services & Support",
+    "question": "What is a Student Success Coach and how are they different from academic advisors?",
+    "answer": "An academic advisor helps you select classes and track graduation progress. A Student Success Coach helps you develop college-level study strategies, time management plans, note-taking skills, test-prep techniques, and habits for navigating college life."
+  },
+  {
+    "id": "SUP-009",
+    "category": "Student Services & Support",
+    "question": "What resources do the university libraries offer besides physical books?",
+    "answer": "The library provides access to hundreds of online research databases, e-books, and scholarly journals. They also lease out technology (laptops, cameras, projectors), host quiet study zones, offer interlibrary loan services, and provide research librarians to assist with projects."
+  },
+  {
+    "id": "SUP-010",
+    "category": "Student Services & Support",
+    "question": "How do I reserve a group study room in the library?",
+    "answer": "Group study rooms can be reserved online through the Library Room Booking system. Students can reserve a room for up to 3 hours per day. Rooms are equipped with whiteboards, large flat-screen displays, and HDMI hookups."
+  },
+  {
+    "id": "SUP-011",
+    "category": "Student Services & Support",
+    "question": "What services are available for veteran students?",
+    "answer": "The Veterans Resource Center assists with the certification and processing of GI Bill benefits, provides a dedicated lounge space, and offers specialized academic advising and transition support for student veterans, active duty personnel, and military dependents."
+  },
+  {
+    "id": "SUP-012",
+    "category": "Student Services & Support",
+    "question": "Are there resources and support groups for LGBTQ+ students?",
+    "answer": "Yes, the LGBTQ+ Resource Center offers peer mentoring, support groups (e.g., coming out groups), training workshops (Safe Zone training), and student advocacy. They also maintain information on gender-inclusive housing and gender-neutral campus restrooms."
+  },
+  {
+    "id": "SUP-013",
+    "category": "Student Services & Support",
+    "question": "Does the university have a food pantry for students in need?",
+    "answer": "Yes, the Campus Food Pantry provides free non-perishable food, fresh produce, and personal hygiene items to any student facing food insecurity. Students only need to present a valid university ID card. Hours and locations are kept updated on the Dean of Students website."
+  },
+  {
+    "id": "SUP-014",
+    "category": "Student Services & Support",
+    "question": "What childcare services are available for student parents?",
+    "answer": "The Early Childhood Education Center offers subsidized, high-quality childcare and preschool programs for children of university students, staff, and faculty, accommodating children from ages 6 weeks to 5 years. Financial aid subsidies are available for eligible students."
+  },
+  {
+    "id": "SUP-015",
+    "category": "Student Services & Support",
+    "question": "Are there free legal services available for students?",
+    "answer": "Yes, the Student Legal Services office provides free, confidential legal advice and representation to students for landlord-tenant disputes, notary services, traffic violations, and minor misdemeanor cases. They cannot represent students in disputes against the university."
+  },
+  {
+    "id": "SUP-016",
+    "category": "Student Services & Support",
+    "question": "What is the role of the University Ombudsperson?",
+    "answer": "The University Ombudsperson is a neutral, informal, and confidential resource who helps students resolve conflicts, complaints, or academic disputes. The Ombuds office works outside of official reporting channels to help explore options and clarify university policies."
+  },
+  {
+    "id": "SUP-017",
+    "category": "Student Services & Support",
+    "question": "How do I apply for on-campus student jobs and what documents are required?",
+    "answer": "You can apply for student jobs on the university's student employment portal (Handshake). If hired, you must complete onboarding at the Student Employment Office and present original, unexpired documents for the I-9 form (such as a passport, or driver's license + social security card)."
+  },
+  {
+    "id": "SUP-018",
+    "category": "Student Services & Support",
+    "question": "What benefits do I get as a member of the Alumni Association?",
+    "answer": "Graduating students automatically join the Alumni Association. Benefits include lifetime access to the Career Center, discounts on insurance, access to university libraries, eligibility for campus recreation center memberships, and regional networking events."
+  },
+  {
+    "id": "SUP-019",
+    "category": "Student Services & Support",
+    "question": "Does the campus store offer discounts on laptops and software?",
+    "answer": "Yes, the Tech Store in the Student Union offers student pricing on Apple and Dell laptops. They also provide free or discounted student licenses for software like Microsoft Office 365, MATLAB, SPSS, and Adobe Creative Cloud."
+  },
+  {
+    "id": "SUP-020",
+    "category": "Student Services & Support",
+    "question": "What services does the Testing Center provide?",
+    "answer": "The Testing Center coordinates makeup exams for students with approved absences, administers accommodated testing for students registered with DSS, and serves as an official testing site for standardized exams like CLEP, TOEFL, and GRE."
+  },
+  {
+    "id": "FAC-001",
+    "category": "Facilities & IT Services",
+    "question": "How do I connect to the campus Wi-Fi network?",
+    "answer": "For students, select the 'University-Secure' Wi-Fi network on your device, log in with your university username and password, and accept the security certificate. For visitors, select 'University-Guest,' open a browser window, and register with a valid email address."
+  },
+  {
+    "id": "FAC-002",
+    "category": "Facilities & IT Services",
+    "question": "How do I reset my university portal or email password?",
+    "answer": "To reset your password, visit the Password Management Portal (password.university.edu), click 'Forgot Password,' and answer your pre-configured security questions or request a verification code sent to your registered recovery email or phone number."
+  },
+  {
+    "id": "FAC-003",
+    "category": "Facilities & IT Services",
+    "question": "What software licenses are provided to students for free?",
+    "answer": "Students have free access to Microsoft Office 365, MATLAB, Adobe Creative Cloud, SPSS, and Autodesk products. These can be downloaded from the university's software portal by logging in with your student credentials."
+  },
+  {
+    "id": "FAC-004",
+    "category": "Facilities & IT Services",
+    "question": "Where is the IT Helpdesk located and what are their hours?",
+    "answer": "The IT Helpdesk walk-in center is located on the first floor of the Library. During the semester, they are open Monday through Thursday, 8:00 AM to 8:00 PM, Friday, 8:00 AM to 5:00 PM, and Saturday, 10:00 AM to 2:00 PM. You can also submit help tickets online."
+  },
+  {
+    "id": "FAC-005",
+    "category": "Facilities & IT Services",
+    "question": "Where are computer labs located and what is the printing allowance?",
+    "answer": "Computer labs are located in the Library, Student Union, and major academic buildings. Students receive a printing quota of $25 (equivalent to 250 black-and-white pages or 50 color pages) per semester credited to their ID cards. Additional credits can be purchased online."
+  },
+  {
+    "id": "FAC-006",
+    "category": "Facilities & IT Services",
+    "question": "How do I access library research databases from off-campus?",
+    "answer": "To access library databases from off-campus, visit the library's website, search for the database, and click the link. You will be prompted to log in using your university multi-factor authentication (MFA) credentials, which will grant you proxy access."
+  },
+  {
+    "id": "FAC-007",
+    "category": "Facilities & IT Services",
+    "question": "How do I get a student ID card and what is the cost of replacement?",
+    "answer": "Your first student ID card (Campus Card) is issued during orientation or at the Campus Card Office in the Student Union. You must bring a government-issued photo ID. If lost, a replacement ID card costs $25, which can be charged to your student account."
+  },
+  {
+    "id": "FAC-008",
+    "category": "Facilities & IT Services",
+    "question": "How do I purchase a campus parking permit?",
+    "answer": "Campus parking permits must be purchased online through the Parking Services portal. You will need your student ID, vehicle registration, and license plate number. Permits are available for commuters, residents, and motorcycles, and costs are billed to your student account."
+  },
+  {
+    "id": "FAC-009",
+    "category": "Facilities & IT Services",
+    "question": "Does the university run a shuttle service and is there a tracking app?",
+    "answer": "Yes, the university operates a free campus shuttle service connecting student parking lots, academic areas, dorms, and nearby off-campus apartment complexes. You can view schedules and track buses in real-time by downloading the 'TransLoc' app."
+  },
+  {
+    "id": "FAC-010",
+    "category": "Facilities & IT Services",
+    "question": "Where is the university Lost and Found department located?",
+    "answer": "The central Lost and Found department is operated by the Campus Police and is located in the Security Services Building. Found items are logged in an online database, which you can search on the campus safety webpage before retrieving your item."
+  },
+  {
+    "id": "FAC-011",
+    "category": "Facilities & IT Services",
+    "question": "How do I receive mail and packages if I live in a dorm?",
+    "answer": "All student mail and packages are delivered to the Central Mailroom in the Student Union. When a package arrives, you will receive an email notification with a pickup barcode. You must present your student ID to claim your mail."
+  },
+  {
+    "id": "FAC-012",
+    "category": "Facilities & IT Services",
+    "question": "Can commuters rent storage lockers on campus?",
+    "answer": "Yes. A limited number of lockers are available for commuter students in the Science Hall and Humanities Building. Locker registration is managed by the Student Union Information Desk, and rentals cost $10 per semester."
+  },
+  {
+    "id": "FAC-013",
+    "category": "Facilities & IT Services",
+    "question": "Is there secure bike parking and how do I register my bicycle?",
+    "answer": "Yes, bike racks are located near all major buildings. Additionally, a secure covered bike shelter is located near the Library, requiring keycard access. You can register your bicycle for free with the Campus Police to help recover it if lost or stolen."
+  },
+  {
+    "id": "FAC-014",
+    "category": "Facilities & IT Services",
+    "question": "Are there electric vehicle (EV) charging stations on campus?",
+    "answer": "Yes, EV charging stations are available in the North Parking Garage and West Lot. Drivers must have a valid parking permit and use the ChargePoint app to initiate charging. A fee of $1.50 per hour applies for the first 4 hours, increasing to $5.00 per hour thereafter."
+  },
+  {
+    "id": "FAC-015",
+    "category": "Facilities & IT Services",
+    "question": "How do I book a meeting room or event space on campus?",
+    "answer": "Registered student organizations and department staff can book campus meeting rooms and event halls using the Event Management System (EMS) online portal. Requests must be submitted at least 7 days in advance for small rooms and 30 days for large event spaces."
+  },
+  {
+    "id": "SAF-001",
+    "category": "Health & Safety",
+    "question": "What services does the Student Health Center provide?",
+    "answer": "The Student Health Center provides primary medical care, including treatment for illnesses/injuries, physical exams, immunizations, basic lab testing, sexual health services, and women's health. Visits are covered by student fees, though small fees apply for lab tests or prescriptions."
+  },
+  {
+    "id": "SAF-002",
+    "category": "Health & Safety",
+    "question": "Is health insurance mandatory for students and how do I submit a waiver?",
+    "answer": "Yes, all students enrolled in 9 or more credit hours must have health insurance. The university automatically enrolls students in the Student Health Insurance Plan (SHIP). If you have comparable private coverage, you must submit a waiver online by September 15 to remove the charge from your bill."
+  },
+  {
+    "id": "SAF-003",
+    "category": "Health & Safety",
+    "question": "What immunizations are required before attending classes?",
+    "answer": "The university requires proof of immunization for MMR (Measles, Mumps, Rubella), Meningococcal (for students living on campus), Tetanus-Diphtheria-Pertussis (Tdap), and Hepatitis B. Health immunization forms must be uploaded to the Student Health Portal by August 1."
+  },
+  {
+    "id": "SAF-004",
+    "category": "Health & Safety",
+    "question": "What are the emergency and non-emergency phone numbers for campus security?",
+    "answer": "For immediate emergencies, dial 911 or call the Campus Police at (555) 019-9111. For non-emergencies (lockouts, parking issues, security escorts), call the dispatch line at (555) 019-9000."
+  },
+  {
+    "id": "SAF-005",
+    "category": "Health & Safety",
+    "question": "What are the blue light emergency phones on campus?",
+    "answer": "Blue light emergency phones are strategically placed along outdoor pathways, parking lots, and near residence halls. Pressing the red button on these phones instantly connects you to the Campus Police dispatcher and displays your exact location, prompting a patrol officer response."
+  },
+  {
+    "id": "SAF-006",
+    "category": "Health & Safety",
+    "question": "How do I sign up for campus emergency alerts?",
+    "answer": "All student email addresses are automatically registered for the university's emergency notification system. To receive SMS text messages and voice alerts on your mobile phone, log into the Student Portal, go to 'Account Settings,' and update your emergency contact phone numbers."
+  },
+  {
+    "id": "SAF-007",
+    "category": "Health & Safety",
+    "question": "Does the university offer a night escort or safe walk program?",
+    "answer": "Yes, the 'SafeWalk' program is available from dusk until dawn daily. Student safety escorts or security officers will walk or drive you to any on-campus location (dorms, library, parking lots). To request a walk, call (555) 019-9000 or use the 'Rave Guardian' mobile safety app."
+  },
+  {
+    "id": "SAF-008",
+    "category": "Health & Safety",
+    "question": "Are campus police officers actual law enforcement officers?",
+    "answer": "Yes, all university police officers are fully sworn, state-certified law enforcement officers. They have full police authority, including the power of arrest, and work closely with local city and county police departments to maintain campus safety."
+  },
+  {
+    "id": "SAF-009",
+    "category": "Health & Safety",
+    "question": "What should I do during an active threat or severe weather event?",
+    "answer": "In an active threat, follow the 'Run, Hide, Fight' guidelines. For severe weather (e.g., tornado), move to the lowest interior level of the building, stay away from windows, and wait for an 'all clear' message from the campus emergency alert system."
+  },
+  {
+    "id": "SAF-010",
+    "category": "Health & Safety",
+    "question": "Are fire drills conducted in the residence halls?",
+    "answer": "Yes, the Environmental Health and Safety office conducts unannounced fire drills in all residence halls once per semester. All students must evacuate the building immediately when the alarm sounds and gather at designated assembly areas outside."
+  },
+  {
+    "id": "SAF-011",
+    "category": "Health & Safety",
+    "question": "What is the role of the Title IX Office?",
+    "answer": "The Title IX Office handles reports of gender-based discrimination, sexual harassment, sexual assault, domestic/dating violence, and stalking. They provide support resources (counseling, academic adjustments) and coordinate investigations and resolutions for student reports."
+  },
+  {
+    "id": "SAF-012",
+    "category": "Health & Safety",
+    "question": "Is there a pharmacy on campus?",
+    "answer": "Yes, the Student Health Center pharmacy stocks commonly prescribed medications, over-the-counter medicines, and first-aid supplies. They accept most major prescription insurance plans, and copays can be billed to your student account."
+  },
+  {
+    "id": "SAF-013",
+    "category": "Health & Safety",
+    "question": "Does the university offer dental or vision care?",
+    "answer": "The Student Health Center does not provide dental or vision care. However, the university offers optional dental and vision insurance plans for students to purchase. The Health Center can also provide referrals to local dentist and optometrist clinics."
+  },
+  {
+    "id": "SAF-014",
+    "category": "Health & Safety",
+    "question": "Who can I contact for after-hours medical advice?",
+    "answer": "For non-emergency medical advice after hours, students can call the Health Center Nurse Line at (555) 019-8277 to speak with a registered nurse. For mental health emergencies, the CAPS crisis line is available 24/7 at (555) 019-2277."
+  },
+  {
+    "id": "SAF-015",
+    "category": "Health & Safety",
+    "question": "How do I appeal a campus parking citation?",
+    "answer": "To appeal a parking ticket, you must submit a written appeal online through the Parking Portal within 14 calendar days of the citation date. The Parking Appeals Committee (composed of students and staff) reviews the appeal, and their decision is final."
+  }
+]

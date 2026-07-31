@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TMDB Movie Recommendation System - Rudhra Sitholey</title>
+
+  <!-- Google Fonts & FontAwesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header Navbar -->
+    <header class="header">
+      <div class="brand">
+        <i class="fas fa-film fa-2x"></i>
+        <div>
+          <h1>TMDB Movie Recommendation Engine</h1>
+          <div class="subtitle">Dataset: 4,800+ Movies | Vector Space Cosine Similarity & TMDB API</div>
+        </div>
+      </div>
+      <div class="badge">
+        <i class="fas fa-circle" style="color: #00f2fe; font-size: 8px;"></i> Active Server (Port 5000)
+      </div>
+    </header>
+
+    <!-- Search Bar & Autocomplete Card -->
+    <div class="search-card">
+      <div class="search-wrapper">
+        <div class="input-container">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="searchInput" class="search-input" placeholder="Type a movie title (e.g., Inception, Avatar, The Dark Knight)..." value="Inception" autocomplete="off">
+          <div id="autocompleteList" class="autocomplete-list"></div>
+        </div>
+        <button id="btnSearch" class="btn">
+          <i class="fas fa-magic"></i> Get Recommendations
+        </button>
+      </div>
+
+      <!-- Quick Select Featured Badges -->
+      <div style="margin-top: 16px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+        <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Popular Suggestions:</span>
+        {% for t in featured_titles %}
+        <button onclick="document.getElementById('searchInput').value='{{ t }}'; document.getElementById('btnSearch').click();" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); color: #00f2fe; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 500; cursor: pointer;">
+          {{ t }}
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Query Movie Hero Preview Banner -->
+    <div id="heroBanner" class="hero-banner">
+      <img id="heroPoster" src="" class="hero-poster" alt="Selected Movie">
+      <div class="hero-info">
+        <div style="font-size: 12px; color: #00f2fe; font-weight: 600; text-transform: uppercase; margin-bottom: 4px;">Selected Seed Movie</div>
+        <h2 id="heroTitle">Inception</h2>
+        <div class="hero-meta">
+          <span><i class="far fa-calendar"></i> <span id="heroYear">2010</span></span>
+          <span class="rating-star"><i class="fas fa-star"></i> <span id="heroRating">8.8 ⭐</span></span>
+          <span><i class="fas fa-database"></i> 4,805 Dataset Movies</span>
+        </div>
+        <p style="font-size: 13px; color: #94a3b8; line-height: 1.5;">Showing top recommendations based on TF-IDF plot summary keywords, cast, crew, and genre vector cosine distance metrics.</p>
+      </div>
+    </div>
+
+    <!-- Movie Recommendations Section -->
+    <div class="grid-title">
+      <i class="fas fa-sparkles"></i> Recommended Similar Movies
+    </div>
+
+    <div id="moviesGrid" class="movies-grid">
+      <!-- Dynamic Movie Cards Rendered Here -->
+    </div>
+
+    <footer class="footer">
+      Student: <strong>Rudhra Sitholey</strong> | Reg No: <strong>23BCY10296</strong> | App No: <strong>IN26012560</strong> | Email: <strong>rudhra.23bcy10296@vitbhopal.ac.in</strong>
+    </footer>
+  </div>
+
+  <!-- Custom JS Engine -->
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

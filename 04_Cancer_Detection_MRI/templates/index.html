@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRI Cancer Detection & Grad-CAM - Rudhra Sitholey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+        body { background: #080c14; color: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+        .card { background: #0f172a; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 32px; width: 100%; max-width: 650px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+        h1 { color: #38bdf8; font-size: 24px; text-align: center; margin-bottom: 6px; }
+        .badge { background: #0369a1; color: white; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600; display: inline-block; margin-bottom: 16px; }
+        .meta { font-size: 13px; color: #94a3b8; text-align: center; border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px; line-height: 1.5; }
+        
+        .opt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+        .opt-card { padding: 16px; background: #1e293b; border: 1px solid #334155; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s; }
+        .opt-card:hover, .opt-card.active { border-color: #38bdf8; background: #0284c7; }
+        
+        button.action { width: 100%; padding: 12px; background: linear-gradient(135deg, #0284c7, #2563eb); border: none; border-radius: 8px; color: white; font-weight: 700; font-size: 15px; cursor: pointer; }
+        .res-box { margin-top: 24px; padding: 20px; background: #070a12; border-radius: 12px; border: 1px solid #1e293b; display: none; }
+        .gradcam-badge { display: inline-block; background: #854d0e; color: #fef08a; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div style="text-align: center;"><span class="badge">Medical AI Diagnostic & Grad-CAM Web App</span></div>
+        <h1>MRI Cancer Detection & Explainability</h1>
+        <div class="meta">
+            <strong>Student:</strong> {{ student_name }} | <strong>Reg No:</strong> {{ reg_no }} | <strong>App No:</strong> {{ app_no }}<br>
+            <strong>Email:</strong> {{ email }}
+        </div>
+
+        <label style="display:block; font-size:13px; color:#cbd5e1; margin-bottom:10px; font-weight:600;">Select MRI Scan Case to Diagnose:</label>
+        <div class="opt-grid">
+            <div class="opt-card active" data-type="cancer" onclick="selectCase(this, 'cancer')">
+                <h3>Tumor / Cancer Scan</h3>
+                <p style="font-size:12px; opacity:0.8; margin-top:4px;">High-intensity lesion region</p>
+            </div>
+            <div class="opt-card" data-type="normal" onclick="selectCase(this, 'normal')">
+                <h3>Normal Brain Scan</h3>
+                <p style="font-size:12px; opacity:0.8; margin-top:4px;">Healthy tissue scan</p>
+            </div>
+        </div>
+
+        <button class="action" id="btnDiagnose">Run MRI AI Diagnostic & Grad-CAM Analysis</button>
+
+        <div id="resBox" class="res-box">
+            <h3 style="color: #38bdf8; margin-bottom:8px;">Diagnostic Report & Explainability:</h3>
+            <p><strong>Clinical Prediction:</strong> <span id="lblDiagnosis" style="color: #4ade80; font-size:16px;">-</span></p>
+            <p style="margin-top:6px;"><strong>Diagnostic Confidence:</strong> <span id="lblConfidence">-</span>%</p>
+            <div class="gradcam-badge" id="lblGradcam">Grad-CAM Heatmap Layer Registered</div>
+        </div>
+    </div>
+
+    <script>
+        let selectedCase = 'cancer';
+        function selectCase(el, type) {
+            document.querySelectorAll('.opt-card').forEach(c => c.classList.remove('active'));
+            el.classList.add('active');
+            selectedCase = type;
+        }
+
+        document.getElementById('btnDiagnose').addEventListener('click', async () => {
+            const res = await fetch('/predict_mri', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ sample_type: selectedCase })
+            });
+            const data = await res.json();
+            document.getElementById('resBox').style.display = 'block';
+            document.getElementById('lblDiagnosis').innerText = data.prediction;
+            document.getElementById('lblConfidence').innerText = data.confidence;
+            document.getElementById('lblGradcam').innerText = data.gradcam_status;
+        });
+    </script>
+</body>
+</html>

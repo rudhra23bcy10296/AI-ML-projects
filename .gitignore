@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.log
+.DS_Store
+venv/
+env/
+.env
+node_modules/
+dist/
+build/
+.chroma/
+*.pkl
+*.h5
+*.pth

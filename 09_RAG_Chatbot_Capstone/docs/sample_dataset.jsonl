@@ -1,0 +1,4 @@
+{"id": 1, "topic": "Supervised Learning", "text": "Supervised learning models learn mapping functions from input features X to target labels Y using algorithms like Random Forests and XGBoost."}
+{"id": 2, "topic": "Deep Learning Vision", "text": "Convolutional Neural Networks process grid images using Conv2D filters, max pooling, batch normalization, and residual blocks."}
+{"id": 3, "topic": "Reinforcement Learning", "text": "RL agents select actions in environments to maximize cumulative rewards using Dueling Double DQN or Proximal Policy Optimization (PPO)."}
+{"id": 4, "topic": "Retrieval-Augmented Generation", "text": "RAG systems retrieve top-k semantic context chunks from a vector store to ground LLM generation and generate exact source citations."}
